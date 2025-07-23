@@ -23,7 +23,7 @@ const PORT = 5000;
 app.use(express.json());
 const allowedOrigins = [
   'http://localhost:3000', // Local dev
-  'https://quickpick-server.onrender.com' // ✅ Replace with your actual frontend Render URL
+  'https://quickpick-server.onrender.com' // Your deployed frontend
 ];
 
 app.use(cors({
